@@ -1,7 +1,7 @@
 # Archetype-u-size
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-Archetype utility for sizing
+Archetype utilities for sizing
 
 ## Installation
   * [Bower](http://bower.io): {{coming soon}}
