@@ -1,0 +1,12 @@
+{
+  "name": "Archetype-u-size",
+  "version": "0.1.0",
+  "author": "Sam Ashley",
+  "main": "_u-size.scss",
+  "ignore": [
+    ".*",
+    "CHANGELOG.md",
+    "package.json",
+    "/test"
+  ]
+}
