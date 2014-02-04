@@ -1,0 +1,13 @@
+/**
+ * Test: Archetype/u-text.scss
+ *
+ */
+@import '../../_[PARTIAL-NAME].scss';
+
+/**
+ * example test class
+ */
+.test__u-textCenter {
+  @extend %u-textCenter;
+}
+
