@@ -93,17 +93,14 @@ a:focus {
 /**
  * Test
  *
- * 1. setting a max width here because testing text specific styles (ie wrapping etc..)
  */
-/* line 95, ../sass/test.scss */
+/* line 94, ../sass/test.scss */
 .test--structure {
   margin: 1em 0 1em 2em;
   padding: .5em;
-  max-width: 400px;
-  /* 1 */
 }
 
-/* line 101, ../sass/test.scss */
+/* line 99, ../sass/test.scss */
 .test--skin {
   background: #d9d9d9;
   border: 1px solid #a6a6a6;

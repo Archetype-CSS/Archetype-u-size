@@ -90,12 +90,10 @@ a {
 /**
  * Test
  *
- * 1. setting a max width here because testing text specific styles (ie wrapping etc..)
  */
 .test--structure {
   margin: 1em 0 1em 2em;
   padding: .5em;
-  max-width: 400px;   /* 1 */
 }
 
 .test--skin {

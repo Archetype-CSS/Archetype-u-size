@@ -2,12 +2,125 @@
  * Test: Archetype/u-text.scss
  *
  */
-@import '../../_[PARTIAL-NAME].scss';
+@import '../../_u-size.scss';
+
+@import 'compass';
+.clearfix {
+  @include pie-clearfix();
+}
 
 /**
- * example test class
+ * Intrinsic sizing
  */
-.test__u-textCenter {
-  @extend %u-textCenter;
+
+/**
+ * Make an element shrink wrap its content.
+ */
+.test__u-sizeWrap {@extend %u-sizeWrap;}
+
+.test__u-sizeWrapRight {@extend %u-sizeWrapRight;}
+
+/**
+ * Make an element fill the remaining space.
+ * N.B. This will hide overflow.
+ */
+.test__u-sizeFill {@extend %u-sizeFill;}
+
+/**
+ * Make an element the width of its parent.
+ */
+.test__u-sizeFull {@extend %u-sizeFull;}
+
+
+/**
+ * Proportional widths
+ *
+ * Specify the proportional width of an object.
+ * Intentional redundancy build into each set of unit classes.
+ * Supports: 2, 3, 4, 5, 6, 8, 10, 12 part
+ */
+
+
+.test__u-size--structure {
+  padding: 2px;
+  border: 1px solid;
+  &.test__u-size--skin {
+    margin-top: 4px;
+  }
 }
+
+.test__u-size--skin {
+  background: lightblue;
+  border-color: darken(lightblue, 15%);
+}
+
+.test__u-size--skin2 {
+  background: lightpink;
+  border-color: darken(lightpink, 15%);
+}
+
+.test__u-size1of12 {@extend %u-size1of12;}
+
+.test__u-size1of10 {@extend %u-size1of10;}
+
+.test__u-size1of8 {@extend %u-size1of8;}
+
+.test__u-size1of6 {@extend %u-size1of6;}
+.test__u-size2of12 {@extend %u-size2of12;}
+
+.test__u-size1of5 {@extend %u-size1of5;}
+.test__u-size2of10 {@extend %u-size2of10;}
+
+.test__u-size1of4 {@extend %u-size1of4;}
+.test__u-size2of8 {@extend %u-size2of8;}
+.test__u-size3of12 {@extend %u-size3of12;}
+
+.test__u-size3of10 {@extend %u-size3of10;}
+
+.test__u-size1of3 {@extend %u-size1of3;}
+.test__u-size2of6 {@extend %u-size2of6;}
+.test__u-size4of12 {@extend %u-size4of12;}
+
+.test__u-size3of8 {@extend %u-size3of8;}
+
+.test__u-size2of5 {@extend %u-size2of5;}
+.test__u-size4of10 {@extend %u-size4of10;}
+
+.test__u-size5of12 {@extend %u-size5of12;}
+
+.test__u-size1of2 {@extend %u-size1of2;}
+.test__u-size2of4 {@extend %u-size2of4;}
+.test__u-size3of6 {@extend %u-size3of6;}
+.test__u-size4of8 {@extend %u-size4of8;}
+.test__u-size5of10 {@extend %u-size5of10;}
+.test__u-size6of12 {@extend %u-size6of12;}
+
+.test__u-size7of12 {@extend %u-size7of12;}
+
+.test__u-size3of5 {@extend %u-size3of5;}
+.test__u-size6of10 {@extend %u-size6of10;}
+
+.test__u-size5of8 {@extend %u-size5of8;}
+
+.test__u-size2of3 {@extend %u-size2of3;}
+.test__u-size4of6 {@extend %u-size4of6;}
+.test__u-size8of12 {@extend %u-size8of12;}
+
+.test__u-size7of10 {@extend %u-size7of10;}
+
+.test__u-size3of4 {@extend %u-size3of4;}
+.test__u-size6of8 {@extend %u-size6of8;}
+.test__u-size9of12 {@extend %u-size9of12;}
+
+.test__u-size4of5 {@extend %u-size4of5;}
+.test__u-size8of10 {@extend %u-size8of10;}
+
+.test__u-size5of6 {@extend %u-size5of6;}
+.test__u-size10of12 {@extend %u-size10of12;}
+
+.test__u-size7of8 {@extend %u-size7of8;}
+
+.test__u-size9of10 {@extend %u-size9of10;}
+
+.test__u-size11of12 {@extend %u-size11of12;}
 
