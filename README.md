@@ -1,19 +1,32 @@
-# Archetype-u-size
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# Archetype-u-size [![Build Status](https://secure.travis-ci.org/Archetype-CSS/u-size.png?branch=master)](http://travis-ci.org/Archetype-CSS/u-size) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-Archetype utilities for sizing
+Archetype utilities for providing intrinsic and proportional widths
 
 ## Installation
   * [Bower](http://bower.io): {{coming soon}}
   * Git: `git clone https://github.com/Archetype-CSS/u-size.git`
 
 ## Use
+
+### Intrinsic Widths
   * `test-title--structure` - structure styles for the test title
   * `test-title--skin` - skin styles for the test title
   * `test-description--structure` - structure styles for the test description
   * `test-description--skin` - skin styles for the test description
   * `test--structure` - structure styles for the test
   * `test--skin` - skin styles for the test
+
+  * `u-sizeWrap` - Shrink wrap an element via float left
+  * `u-sizeWrapRight` - Shrink wrap an element via float right
+  * `u-sizeFill` - Force an element to fill remaining space
+  * `u-sizeFull` - Force an element to the width of its parent
+
+### Proportional Widths
+  * `u-sizeXofY` - Specify an explicit width (percentage of parent container)
+
+`X` must be an integer < `y`
+
+`Y` can be either 2, 3, 4, 6, 8, 10, or 12
 
 ## Run the Test Locally
 
