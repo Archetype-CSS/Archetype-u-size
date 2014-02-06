@@ -9,13 +9,6 @@ Archetype utilities for providing intrinsic and proportional widths
 ## Use
 
 ### Intrinsic Widths
-  * `test-title--structure` - structure styles for the test title
-  * `test-title--skin` - skin styles for the test title
-  * `test-description--structure` - structure styles for the test description
-  * `test-description--skin` - skin styles for the test description
-  * `test--structure` - structure styles for the test
-  * `test--skin` - skin styles for the test
-
   * `u-sizeWrap` - Shrink wrap an element via float left
   * `u-sizeWrapRight` - Shrink wrap an element via float right
   * `u-sizeFill` - Force an element to fill remaining space
