@@ -11,9 +11,13 @@
 
 /**
  * Intrinsic sizing
+ *
  */
 
+
 /**
+ * Test u-sizeWrap and u-sizeWrapRight
+ * 
  * Make an element shrink wrap its content.
  */
 .test__u-sizeWrap {@extend %u-sizeWrap;}
@@ -21,34 +25,34 @@
 .test__u-sizeWrapRight {@extend %u-sizeWrapRight;}
 
 /**
+ * Test u-sizeFill
+ *
  * Make an element fill the remaining space.
  * N.B. This will hide overflow.
  */
 .test__u-sizeFill {@extend %u-sizeFill;}
 
 /**
+ * Test u-sizeFull
+ *
  * Make an element the width of its parent.
  */
 .test__u-sizeFull {@extend %u-sizeFull;}
 
-
 /**
- * Proportional widths
+ * Test Structure for u-size
  *
- * Specify the proportional width of an object.
- * Intentional redundancy build into each set of unit classes.
- * Supports: 2, 3, 4, 5, 6, 8, 10, 12 part
  */
-
-
 .test__u-size--structure {
   padding: 2px;
   border: 1px solid;
-  &.test__u-size--skin {
-    margin-top: 4px;
-  }
+  & + & { margin-top: 4px; }    /* spacing betweenn consecutive tests */
 }
 
+/**
+ * Test Skins for u-size
+ *
+ */
 .test__u-size--skin {
   background: lightblue;
   border-color: darken(lightblue, 15%);
@@ -59,6 +63,10 @@
   border-color: darken(lightpink, 15%);
 }
 
+/**
+ * Proportional widths
+ *
+ */
 .test__u-size1of12 {@extend %u-size1of12;}
 
 .test__u-size1of10 {@extend %u-size1of10;}

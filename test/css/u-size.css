@@ -201,42 +201,56 @@
 
 /**
  * Intrinsic sizing
+ *
  */
 /**
+ * Test u-sizeWrap and u-sizeWrapRight
+ * 
  * Make an element shrink wrap its content.
  */
 /**
+ * Test u-sizeFill
+ *
  * Make an element fill the remaining space.
  * N.B. This will hide overflow.
  */
 /**
+ * Test u-sizeFull
+ *
  * Make an element the width of its parent.
  */
 /**
- * Proportional widths
+ * Test Structure for u-size
  *
- * Specify the proportional width of an object.
- * Intentional redundancy build into each set of unit classes.
- * Supports: 2, 3, 4, 5, 6, 8, 10, 12 part
  */
-/* line 44, ../sass/u-size.scss */
+/* line 46, ../sass/u-size.scss */
 .test__u-size--structure {
   padding: 2px;
   border: 1px solid;
+  /* spacing betweenn consecutive tests */
 }
-/* line 47, ../sass/u-size.scss */
-.test__u-size--structure.test__u-size--skin {
+/* line 49, ../sass/u-size.scss */
+.test__u-size--structure + .test__u-size--structure {
   margin-top: 4px;
 }
 
-/* line 52, ../sass/u-size.scss */
+/**
+ * Test Skins for u-size
+ *
+ */
+/* line 56, ../sass/u-size.scss */
 .test__u-size--skin {
   background: lightblue;
   border-color: #72bcd4;
 }
 
-/* line 57, ../sass/u-size.scss */
+/* line 61, ../sass/u-size.scss */
 .test__u-size--skin2 {
   background: lightpink;
   border-color: #ff6a80;
 }
+
+/**
+ * Proportional widths
+ *
+ */
