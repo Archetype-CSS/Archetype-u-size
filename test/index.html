@@ -9,54 +9,50 @@
   <body>
     <h1 class="test-header--structure test-header--skin"><a href="https://github.com/Archetype-CSS/Archetype-test">Archetype-CSS/u-size:</a> Visual Unit Tests</h1>
 
-    <h2>Intrinsic widths</h2>
+    <h2 class="test-header--skin">Intrinsic widths:</h2>
 
-    <h3 class="test-title--structure test-title--skin">u-sizeWrap and sizeFill</h3>
+    <h3 class="test-title--structure test-title--skin">.u-sizeWrap and .u-sizeFill</h3>
     <p class="test-description--structure test-description--skin">Force an element to shrink wrap its contents using float left.</p>
   <div class="u-cf clearfix test--structure test--skin">
     <img class="test__u-sizeWrap" src="http://dummyimage.com/100x100/000000/fff.png&text=X" width="100" height="100" alt="">
-    <div class="u-sizeFill test__u-size--structure test__u-size--skin">
-      words and stuff
+    <div class="test__u-sizeFill test__u-size--structure test__u-size--skin">
+      This text is using <strong><code>u-sizeFill</code></strong>
     </div>
   </div>
 
-
-    <h3 class="test-title--structure test-title--skin">.test__u-sizeWrap</h3>
+    <h3 class="test-title--structure test-title--skin">.u-sizeWrap and .u-sizeFill</h3>
     <p class="test-description--structure test-description--skin">Force an element to shrink wrap its contents using float left.</p>
     <div class="test--structure test--skin">
       <div class="test__u-sizeWrap clearfix test__u-size--skin">
-        This text is wrapped
+        This text is wrapped using <strong><code>u-sizeWrap</code></strong>
       </div>
-      <p class="test__u-size--skin2">This is an un-wrapped sibling paragraph</p>
+      <div class="test__u-sizeFill test__u-size--skin2">
+        This is text is using <strong><code>u-sizeFill</code></strong>
+      </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-sizeWrapRight</h3>
+    <h3 class="test-title--structure test-title--skin">.u-sizeWrapRight and .u-sizeFill</h3>
     <p class="test-description--structure test-description--skin">Force an element to shrink wrap its contents using float right</p>
     <div class="test--structure test--skin">
       <div class="test__u-sizeWrapRight test__u-size--skin">
-        Example text
+        This text is using <strong><code>u-sizeWrapRight</code></strong>
+      </div>
+      <div class="test__u-sizeFill test__u-size--skin2">
+        This is text is using <strong><code>u-sizeFill</code></strong>
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-sizeFill</h3>
+    <h3 class="test-title--structure test-title--skin">.u-sizeFull</h3>
     <p class="test-description--structure test-description--skin">Force an element to fill the remaining space.</p>
     <div class="test--structure test--skin">
-      <div class="test__u-sizeFill">
-        Example text
+      <div class="test__u-sizeFull test__u-size--skin">
+        This is text is using <strong><code>u-sizeFull</code></strong>
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-sizeFull</h3>
-    <p class="test-description--structure test-description--skin">Force an element to fill the remaining space.</p>
-    <div class="test--structure test--skin">
-      <div class="test__u-sizeFull">
-        Example text
-      </div>
-    </div>
+    <h2 class="test-header--skin">Proportional Widths:</h2>
 
-    <h2>Proportional Widths:</h2>
-
-    <h3 class="test-title--structure test-title--skin">.test__u-size1of12</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size1of12</h3>
     <p class="test-description--structure test-description--skin">One-twelth, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size1of12 test__u-size--structure test__u-size--skin">
@@ -64,7 +60,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size1of10</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size1of10</h3>
     <p class="test-description--structure test-description--skin">One-tenth, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size1of10 test__u-size--structure test__u-size--skin">
@@ -72,7 +68,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size1of8</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size1of8</h3>
     <p class="test-description--structure test-description--skin">One-eighth, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size1of8 test__u-size--structure test__u-size--skin">
@@ -80,7 +76,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size1of6</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size1of6</h3>
     <p class="test-description--structure test-description--skin">One-sixth, proportional width (same as two-twelves)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size1of6 test__u-size--structure test__u-size--skin">
@@ -91,7 +87,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size1of5</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size1of5</h3>
     <p class="test-description--structure test-description--skin">One-fifth, proportional width (same as two-tenths)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size1of5 test__u-size--structure test__u-size--skin">
@@ -102,7 +98,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size1of4</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size1of4</h3>
     <p class="test-description--structure test-description--skin">One-fifth, proportional width (same as two-eighths, and three-twelves)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size1of4 test__u-size--structure test__u-size--skin">
@@ -116,7 +112,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size3of10</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size3of10</h3>
     <p class="test-description--structure test-description--skin">Three-tenths, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size3of10 test__u-size--structure test__u-size--skin">
@@ -124,7 +120,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size1of3</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size1of3</h3>
     <p class="test-description--structure test-description--skin">One-third, proportional width (same as two-sixths, and four-twelves)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size1of3 test__u-size--structure test__u-size--skin">
@@ -138,7 +134,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size3of8</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size3of8</h3>
     <p class="test-description--structure test-description--skin">Three-eighths, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size3of8 test__u-size--structure test__u-size--skin">
@@ -146,7 +142,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size2of5</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size2of5</h3>
     <p class="test-description--structure test-description--skin">Two-fifths, proportional width (same as four-tenths)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size2of5 test__u-size--structure test__u-size--skin">
@@ -157,7 +153,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size5of12</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size5of12</h3>
     <p class="test-description--structure test-description--skin">Five-twelves, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size5of12 test__u-size--structure test__u-size--skin">
@@ -165,7 +161,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size1of2</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size1of2</h3>
     <p class="test-description--structure test-description--skin">One-half, proportional width (same as two-fourths, three-sixths, four-eighths, five-tenths, and six-twleves)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size1of2 test__u-size--structure test__u-size--skin">
@@ -188,7 +184,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size7of12</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size7of12</h3>
     <p class="test-description--structure test-description--skin">Seven-twelves, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size7of12 test__u-size--structure test__u-size--skin">
@@ -196,7 +192,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size3of5</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size3of5</h3>
     <p class="test-description--structure test-description--skin">Three-fifths, proportional width (same as six-tenths)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size3of10 test__u-size--structure test__u-size--skin">
@@ -207,7 +203,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size5of8</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size5of8</h3>
     <p class="test-description--structure test-description--skin">Five-eighths, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size5of8 test__u-size--structure test__u-size--skin">
@@ -215,7 +211,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size2of3</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size2of3</h3>
     <p class="test-description--structure test-description--skin">Two-thirds, proportional width (same as four-sixths, and eight-twelves)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size2of3 test__u-size--structure test__u-size--skin">
@@ -229,7 +225,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size7of10</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size7of10</h3>
     <p class="test-description--structure test-description--skin">Seven-tenths, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size7of10 test__u-size--structure test__u-size--skin">
@@ -237,7 +233,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size3of4</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size3of4</h3>
     <p class="test-description--structure test-description--skin">Three-fourths, proportional width (same as six-eighths, and nine-twelves)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size3of4 test__u-size--structure test__u-size--skin">
@@ -251,7 +247,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size4of5</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size4of5</h3>
     <p class="test-description--structure test-description--skin">Four-fifths, proportional width (same as eight-tenths)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size4of5 test__u-size--structure test__u-size--skin">
@@ -262,7 +258,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size5of6</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size5of6</h3>
     <p class="test-description--structure test-description--skin">Five-sixths, proportional width (same as ten-twelves)</p>
     <div class="test--structure test--skin">
       <div class="test__u-size5of6 test__u-size--structure test__u-size--skin">
@@ -273,7 +269,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size7of8</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size7of8</h3>
     <p class="test-description--structure test-description--skin">Seven-eighths, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size7of8 test__u-size--structure test__u-size--skin">
@@ -281,7 +277,7 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size9of10</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size9of10</h3>
     <p class="test-description--structure test-description--skin">Nine-tenths, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size9of10 test__u-size--structure test__u-size--skin">
@@ -289,11 +285,171 @@
       </div>
     </div>
 
-    <h3 class="test-title--structure test-title--skin">.test__u-size11of12</h3>
+    <h3 class="test-title--structure test-title--skin">.u-size11of12</h3>
     <p class="test-description--structure test-description--skin">Eleven-twelves, proportional width</p>
     <div class="test--structure test--skin">
       <div class="test__u-size11of12 test__u-size--structure test__u-size--skin">
         u-size11of12
+      </div>
+    </div>
+
+    <h3 class="test-header--skin">Comparitive Test for Proportional Widths:</h3>
+
+    <div class="test--structure test--skin">
+      <div class="test__u-size1of2 test__u-size--structure test__u-size--skin">
+        u-size1of2
+      </div>
+      <div class="test__u-size2of2 test__u-size--structure test__u-size--skin">
+        u-size2of2
+      </div>
+    </div>
+
+    <div class="test--structure test--skin">
+      <div class="test__u-size1of3 test__u-size--structure test__u-size--skin">
+        u-size1of3
+      </div>
+      <div class="test__u-size2of3 test__u-size--structure test__u-size--skin">
+        u-size2of3
+      </div>
+      <div class="test__u-size3of3 test__u-size--structure test__u-size--skin">
+        u-size3of3
+      </div>
+    </div>
+
+    <div class="test--structure test--skin">
+      <div class="test__u-size1of4 test__u-size--structure test__u-size--skin">
+        u-size1of4
+      </div>
+      <div class="test__u-size2of4 test__u-size--structure test__u-size--skin">
+        u-size2of4
+      </div>
+      <div class="test__u-size3of4 test__u-size--structure test__u-size--skin">
+        u-size3of4
+      </div>
+      <div class="test__u-size4of4 test__u-size--structure test__u-size--skin">
+        u-size4of4
+      </div>
+    </div>
+
+    <div class="test--structure test--skin">
+      <div class="test__u-size1of6 test__u-size--structure test__u-size--skin">
+        u-size1of6
+      </div>
+      <div class="test__u-size2of6 test__u-size--structure test__u-size--skin">
+        u-size2of6
+      </div>
+      <div class="test__u-size3of6 test__u-size--structure test__u-size--skin">
+        u-size3of6
+      </div>
+      <div class="test__u-size4of6 test__u-size--structure test__u-size--skin">
+        u-size4of6
+      </div>
+      <div class="test__u-size5of6 test__u-size--structure test__u-size--skin">
+        u-size5of6
+      </div>
+      <div class="test__u-size6of6 test__u-size--structure test__u-size--skin">
+        u-size6of6
+      </div>
+    </div>
+
+    <div class="test--structure test--skin">
+      <div class="test__u-size1of8 test__u-size--structure test__u-size--skin">
+        u-size1of8
+      </div>
+      <div class="test__u-size2of8 test__u-size--structure test__u-size--skin">
+        u-size2of8
+      </div>
+      <div class="test__u-size3of8 test__u-size--structure test__u-size--skin">
+        u-size3of8
+      </div>
+      <div class="test__u-size4of8 test__u-size--structure test__u-size--skin">
+        u-size4of8
+      </div>
+      <div class="test__u-size5of8 test__u-size--structure test__u-size--skin">
+        u-size5of8
+      </div>
+      <div class="test__u-size6of8 test__u-size--structure test__u-size--skin">
+        u-size6of8
+      </div>
+      <div class="test__u-size7of8 test__u-size--structure test__u-size--skin">
+        u-size7of8
+      </div>
+      <div class="test__u-size8of8 test__u-size--structure test__u-size--skin">
+        u-size8of8
+      </div>
+
+    </div>
+
+    <div class="test--structure test--skin">
+      <div class="test__u-size1of10 test__u-size--structure test__u-size--skin">
+        u-size1of10
+      </div>
+      <div class="test__u-size2of10 test__u-size--structure test__u-size--skin">
+        u-size2of10
+      </div>
+      <div class="test__u-size3of10 test__u-size--structure test__u-size--skin">
+        u-size3of10
+      </div>
+      <div class="test__u-size4of10 test__u-size--structure test__u-size--skin">
+        u-size4of10
+      </div>
+      <div class="test__u-size5of10 test__u-size--structure test__u-size--skin">
+        u-size5of10
+      </div>
+      <div class="test__u-size6of10 test__u-size--structure test__u-size--skin">
+        u-size6of10
+      </div>
+      <div class="test__u-size7of10 test__u-size--structure test__u-size--skin">
+        u-size7of10
+      </div>
+      <div class="test__u-size8of10 test__u-size--structure test__u-size--skin">
+        u-size8of10
+      </div>
+      <div class="test__u-size9of10 test__u-size--structure test__u-size--skin">
+        u-size9of10
+      </div>
+      <div class="test__u-size10of10 test__u-size--structure test__u-size--skin">
+        u-size10of10
+      </div>
+
+    </div>
+    
+    <div class="test--structure test--skin">
+      <div class="test__u-size1of12 test__u-size--structure test__u-size--skin">
+        u-size1of12
+      </div>
+      <div class="test__u-size2of12 test__u-size--structure test__u-size--skin">
+        u-size2of12
+      </div>
+      <div class="test__u-size3of12 test__u-size--structure test__u-size--skin">
+        u-size3of12
+      </div>
+      <div class="test__u-size4of12 test__u-size--structure test__u-size--skin">
+        u-size4of12
+      </div>
+      <div class="test__u-size5of12 test__u-size--structure test__u-size--skin">
+        u-size5of12
+      </div>
+      <div class="test__u-size6of12 test__u-size--structure test__u-size--skin">
+        u-size6of12
+      </div>
+      <div class="test__u-size7of12 test__u-size--structure test__u-size--skin">
+        u-size7of12
+      </div>
+      <div class="test__u-size8of12 test__u-size--structure test__u-size--skin">
+        u-size8of12
+      </div>
+      <div class="test__u-size9of12 test__u-size--structure test__u-size--skin">
+        u-size9of12
+      </div>
+      <div class="test__u-size10of12 test__u-size--structure test__u-size--skin">
+        u-size10of12
+      </div>
+      <div class="test__u-size11of12 test__u-size--structure test__u-size--skin">
+        u-size11of12
+      </div>
+      <div class="test__u-size12of12 test__u-size--structure test__u-size--skin">
+        u-size12of12
       </div>
     </div>
 
