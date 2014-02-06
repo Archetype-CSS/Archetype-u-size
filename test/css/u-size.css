@@ -1,0 +1,245 @@
+/**
+ * Test: Archetype/u-text.scss
+ *
+ */
+/*** @export "u-size" css */
+/**
+ * Sizing Utilities
+ *
+ */
+/**
+ * Intrinsic sizing
+ */
+/**
+ * Make an element shrink wrap its content.
+ */
+/* line 14, ../../_u-size.scss */
+.test__u-sizeWrap {
+  display: block !important;
+  float: left !important;
+  width: auto !important;
+}
+
+/* line 20, ../../_u-size.scss */
+.test__u-sizeWrapRight {
+  display: block !important;
+  float: right !important;
+  width: auto !important;
+}
+
+/**
+ * Make an element fill the remaining space.
+ * N.B. This will hide overflow.
+ */
+/* line 30, ../../_u-size.scss */
+.test__u-sizeFill {
+  display: block !important;
+  overflow: hidden !important;
+  width: auto !important;
+}
+
+/**
+ * Make an element the width of its parent.
+ */
+/* line 39, ../../_u-size.scss */
+.test__u-sizeFull {
+  display: block !important;
+  width: 100% !important;
+}
+
+/**
+ * Proportional widths
+ *
+ * Specify the proportional width of an object.
+ * Intentional redundancy build into each set of unit classes.
+ * Supports: 2, 3, 4, 5, 6, 8, 10, 12 part
+ */
+/* line 51, ../../_u-size.scss */
+.test__u-size1of12 {
+  width: 8.333% !important;
+}
+
+/* line 55, ../../_u-size.scss */
+.test__u-size1of10 {
+  width: 10% !important;
+}
+
+/* line 59, ../../_u-size.scss */
+.test__u-size1of8 {
+  width: 12.5% !important;
+}
+
+/* line 63, ../../_u-size.scss */
+.test__u-size1of6,
+.test__u-size2of12 {
+  width: 16.667% !important;
+}
+
+/* line 68, ../../_u-size.scss */
+.test__u-size1of5,
+.test__u-size2of10 {
+  width: 20% !important;
+}
+
+/* line 73, ../../_u-size.scss */
+.test__u-size1of4,
+.test__u-size2of8,
+.test__u-size3of12 {
+  width: 25% !important;
+}
+
+/* line 79, ../../_u-size.scss */
+.test__u-size3of10 {
+  width: 30% !important;
+}
+
+/* line 83, ../../_u-size.scss */
+.test__u-size1of3,
+.test__u-size2of6,
+.test__u-size4of12 {
+  width: 33.333% !important;
+}
+
+/* line 89, ../../_u-size.scss */
+.test__u-size3of8 {
+  width: 37.5% !important;
+}
+
+/* line 93, ../../_u-size.scss */
+.test__u-size2of5,
+.test__u-size4of10 {
+  width: 40% !important;
+}
+
+/* line 98, ../../_u-size.scss */
+.test__u-size5of12 {
+  width: 41.667% !important;
+}
+
+/* line 102, ../../_u-size.scss */
+.test__u-size1of2,
+.test__u-size2of4,
+.test__u-size3of6,
+.test__u-size4of8,
+.test__u-size5of10,
+.test__u-size6of12 {
+  width: 50% !important;
+}
+
+/* line 111, ../../_u-size.scss */
+.test__u-size7of12 {
+  width: 58.333% !important;
+}
+
+/* line 115, ../../_u-size.scss */
+.test__u-size3of5,
+.test__u-size6of10 {
+  width: 60% !important;
+}
+
+/* line 120, ../../_u-size.scss */
+.test__u-size5of8 {
+  width: 62.5% !important;
+}
+
+/* line 124, ../../_u-size.scss */
+.test__u-size2of3,
+.test__u-size4of6,
+.test__u-size8of12 {
+  width: 66.667% !important;
+}
+
+/* line 130, ../../_u-size.scss */
+.test__u-size7of10 {
+  width: 70% !important;
+}
+
+/* line 134, ../../_u-size.scss */
+.test__u-size3of4,
+.test__u-size6of8,
+.test__u-size9of12 {
+  width: 75% !important;
+}
+
+/* line 140, ../../_u-size.scss */
+.test__u-size4of5,
+.test__u-size8of10 {
+  width: 80% !important;
+}
+
+/* line 145, ../../_u-size.scss */
+.test__u-size5of6,
+.test__u-size10of12 {
+  width: 83.333% !important;
+}
+
+/* line 150, ../../_u-size.scss */
+.test__u-size7of8 {
+  width: 87.5% !important;
+}
+
+/* line 154, ../../_u-size.scss */
+.test__u-size9of10 {
+  width: 90% !important;
+}
+
+/* line 158, ../../_u-size.scss */
+.test__u-size11of12 {
+  width: 91.667% !important;
+}
+
+/**
+ * Intrinsic sizing
+ *
+ */
+/**
+ * Test u-sizeWrap and u-sizeWrapRight
+ * 
+ * Make an element shrink wrap its content.
+ */
+/**
+ * Test u-sizeFill
+ *
+ * Make an element fill the remaining space.
+ * N.B. This will hide overflow.
+ */
+/**
+ * Test u-sizeFull
+ *
+ * Make an element the width of its parent.
+ */
+/**
+ * Test Structure for u-size
+ *
+ */
+/* line 41, ../sass/u-size.scss */
+.test__u-size--structure {
+  padding: 2px;
+  border: 1px solid;
+  /* spacing betweenn consecutive tests */
+}
+/* line 44, ../sass/u-size.scss */
+.test__u-size--structure + .test__u-size--structure {
+  margin-top: 4px;
+}
+
+/**
+ * Test Skins for u-size
+ *
+ */
+/* line 51, ../sass/u-size.scss */
+.test__u-size--skin {
+  background: lightblue;
+  border-color: #72bcd4;
+}
+
+/* line 56, ../sass/u-size.scss */
+.test__u-size--skin2 {
+  background: lightpink;
+  border-color: #ff6a80;
+}
+
+/**
+ * Proportional widths
+ *
+ */

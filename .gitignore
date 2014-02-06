@@ -1,0 +1,5 @@
+config.rb
+sass/
+DS_Store
+node_modules/
+.sass-cache/
