@@ -2,7 +2,7 @@
  * Test: Archetype/u-text.scss
  *
  */
-/*** @export "u-layout--display" css */
+/*** @export "u-size" css */
 /**
  * Sizing Utilities
  *
@@ -188,17 +188,6 @@
   width: 91.667% !important;
 }
 
-/* line 8, ../sass/u-size.scss */
-.clearfix {
-  *zoom: 1;
-}
-/* line 38, ../../../../../../.rvm/rubies/ruby-1.9.3-p448/lib/ruby/gems/1.9.1/gems/compass-core-1.0.0.alpha.16/stylesheets/compass/utilities/general/_clearfix.scss */
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /**
  * Intrinsic sizing
  *
@@ -223,13 +212,13 @@
  * Test Structure for u-size
  *
  */
-/* line 46, ../sass/u-size.scss */
+/* line 41, ../sass/u-size.scss */
 .test__u-size--structure {
   padding: 2px;
   border: 1px solid;
   /* spacing betweenn consecutive tests */
 }
-/* line 49, ../sass/u-size.scss */
+/* line 44, ../sass/u-size.scss */
 .test__u-size--structure + .test__u-size--structure {
   margin-top: 4px;
 }
@@ -238,13 +227,13 @@
  * Test Skins for u-size
  *
  */
-/* line 56, ../sass/u-size.scss */
+/* line 51, ../sass/u-size.scss */
 .test__u-size--skin {
   background: lightblue;
   border-color: #72bcd4;
 }
 
-/* line 61, ../sass/u-size.scss */
+/* line 56, ../sass/u-size.scss */
 .test__u-size--skin2 {
   background: lightpink;
   border-color: #ff6a80;

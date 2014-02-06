@@ -4,11 +4,6 @@
  */
 @import '../../_u-size.scss';
 
-@import 'compass';
-.clearfix {
-  @include pie-clearfix();
-}
-
 /**
  * Intrinsic sizing
  *
